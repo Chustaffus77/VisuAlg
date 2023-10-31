@@ -7,7 +7,9 @@ Algoritmo "semnome"
 
 
 Var
-n1,n2,soma,sub1,sub2,mult,divisao,resto:real
+
+n1,n2,soma,sub1,sub2,mult,resto:inteiro
+divisao: real
 
 Inicio
 
@@ -19,7 +21,7 @@ leia(n2)
 
 soma <- n1 + n2
 sub1 <- n1 - n2
-sub2 <- n2 + n1
+sub2 <- n2 - n1
 mult <- n1 * n2
 divisao <- n1 / n2
 resto <- n1 % n2
